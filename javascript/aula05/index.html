@@ -1,0 +1,34 @@
+<html>
+<script>
+    let dinheiro = (Number(prompt("O valor do sorvete é " + valor + ", quanto de dinheiro você tem?")))
+    let valor = 4
+    let sabor1 = "milho"
+    let sabor2 = "morango"
+    let sabor3 = "chocolate"
+    let sabor4 = "baunilha"
+    let qualsabordoSorvete = (prompt("Qual sabor de sorvete você quer?"))
+
+
+    if (dinheiro >= valor) {
+        if (( 
+            qualsabordoSorvete === sabor1 ||
+            qualsabordoSorvete === sabor2 ||
+            qualsabordoSorvete === sabor3 ||
+            qualsabordoSorvete === sabor4
+        )) {
+            let troco = dinheiro- valor;
+            alert("Toma aqui seu soverte de " + qualsabordoSorvete + ".");
+            if ((troco > 0)) {
+                alert("Aqui está seu troco: R$" + troco.toFixed(2));
+            } else{
+                alert("Você deu o valor exato, sem troco.");
+            }
+        } else{
+            alert("desculpe, esse sabor não está disponivel.");
+        }
+    } else{
+        alert("Você não tem dinheiro o sulficiente!");
+    }
+
+</script>
+</html>
