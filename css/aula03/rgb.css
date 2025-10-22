@@ -1,0 +1,29 @@
+body{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMc1PLEAb59mnxAW-eDPYyWCeuX79DrzPzPA&s");
+    background-size: 950px;
+}
+
+#red {
+    color: #ff0000;
+
+}
+
+#green {
+    color: rgb(48, 219, 71);
+ 
+}
+
+#blue {
+    color: rgb(11, 94, 227);
+    
+}
+
+h2{
+    color: rgb(90, 25, 255);
+    font-size: 40px;
+}
+
+p{
+   /* HEX ou codigo hexadecimal representa uma cor especifica. esse codigo é comom voce recebera de seu designer as cores para construir os sites. */
+    background-color: #f5f5f557;
+}

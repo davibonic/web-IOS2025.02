@@ -1,0 +1,23 @@
+/* Para usar uma fonte da internet podemos usar o @import de um site especificado. No exemplo utilizamoso site Google Fonts para importar e utilizar uma nova font-family. */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-align: center;
+  /* text-shadow
+   1° valor: deslocameto horizontal
+   2° valor: deslocamento vertical
+   3° valor: desfoque
+   4° valor: cor da sombra*/
+  
+    text-shadow: -10px 20px 5px rgb(30, 95, 151);
+}
+
+p {
+    font-family: "Schibsted Grotesk", sans-serif;
+    text-align: center;
+}
