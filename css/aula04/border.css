@@ -1,0 +1,19 @@
+h1 {
+    /* border-width determina o tamanho da borda */
+    border-width: 10px;
+    /* border-color determina a cor da borda */
+    border-color: #d1d1d1c9;
+    /* border-style determina o formato da borda */
+    border-style: inset;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    /* podemos criar ma borda de forma abreviada colocando tudo em uma propriedade border.
+    border recebe 3 valores:
+    10px(tamanho)
+    #d1d1d1c9 (cor)
+    inset(tipo)
+    */
+    border: 10px #d1d1d1c9 inset
+}
