@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.quadrado{
+    width: 200px;
+    height: 200px;
+    background-color: #13aa0e;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(5, 100px);
+}
+
+.item-1{
+    background-color: #06099b;
+    grid-row: 1/4;
+    grid-column: 1/3;
+
+}
+.item-2{
+    background-color: #eec616;
+}
+.item-3{
+    background-color: #ff0000;
+}                            

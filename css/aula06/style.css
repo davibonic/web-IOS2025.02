@@ -1,15 +1,15 @@
-*{
+* {
     margin: 0;
 }
 
-header{
+header {
     background-color: #021633;
     display: flex;
     justify-content: space-around;
     color: whitesmoke;
 }
 
-#container{
+#container {
     background-color: #13243b;
     height: 600px;
     display: flex;
@@ -17,16 +17,16 @@ header{
     flex-direction: column;
 }
 
-img{
+img {
     width: 300px;
     height: 300px;
 }
 
-button{
+button {
     height: 20px;
     width: 300px;
 }
 
-h2{
+h2 {
     color: whitesmoke;
 }

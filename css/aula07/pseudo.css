@@ -1,0 +1,47 @@
+:root{
+    --corPrincipal: #d618b6;
+    --fontDesktop: 18px;
+    --fonteMobile: 50px;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.quadrado {
+    width: 200px;
+    height: 200px;
+    background-color: #1c47bd;
+    transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease;
+}
+
+.quadrado:hover {
+    width: 220px;
+    height: 220px;
+    background-color: #d618b6;
+}
+
+a:link{
+    color: #1c47bd;
+    font-size: 50px;
+}
+
+h1{
+    color: var(--corPrincipal)
+}
+
+span{
+    background-color: var(--corPrincipal)
+}
+
+p:first-child {
+    color: blue;
+    }
+
+#shrek:first-letter{
+    color: #d618b6;
+    font-size: 30px;
+}
+
